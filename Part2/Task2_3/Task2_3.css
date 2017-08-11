@@ -1,0 +1,17 @@
+table {
+	width: 900px;
+	border-collapse: collapse;
+}
+
+tr, td, th {
+	width: 300px;
+	height: 60px;
+	vertical-align: center;
+	font-family: Verdana, sans-serif;
+	border-bottom: 1px solid #cccccc;
+}
+th, td {
+}
+th {
+	text-align: left;
+}

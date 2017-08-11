@@ -1,0 +1,16 @@
+.figure {
+	margin-left: 20px;
+	width: 100px;
+	height: 60px;
+	background-color: black;
+	position: relative;
+}
+
+.figure:before {
+	content: '';
+	position: absolute;
+	left: -40px;
+	top: 10px;
+	border: 20px solid transparent;
+	border-right: 30px solid black;
+}

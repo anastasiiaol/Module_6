@@ -1,0 +1,111 @@
+.close {
+	position: absolute;
+	top:-12px;
+	right: -12px;
+	width: 35px;
+	height: 35px;
+	background-color: black;
+	color: white;
+	border: 2px solid white;
+	border-radius: 70px;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.57);
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.block {
+	width: 1000px;
+	height: 500px;
+	background: #f9f9f9;
+	display: block;	
+	margin: 50px auto;
+	padding: 15px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.57);
+	position: relative;
+}
+
+table {
+	width: 1000px;
+	height: 300px;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 10px;
+	text-align: left;
+	vertical-align: top;
+}
+tr {
+	border-top: 1px solid #dddddd;
+	font-family: Arial, sans-serif;
+}
+.head {
+	border: none;
+}
+.name {
+	color: #e7242a;
+	font-weight: bold;
+}
+
+.plus, .minus, .delete {
+	display: inline-block;
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-left: 5px;
+	background-color: #e7242a;
+	border: none;
+	color: white;
+	text-align: center;
+	vertical-align: center;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 40px;
+}
+.delete {
+	width: 100px;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #dc4e45;
+}
+
+.total {
+	margin-top: 20px;
+	padding: 5px;
+	width: 400px;
+	height: 60px;
+	float: right;
+	border-right: 6px solid #eeeeee;
+}
+
+.discount, .without {
+	margin: 0 5px 5px;
+	text-align: right;
+	font-family: Arial, sans-serif;
+	font-size: 26px;
+}
+.without {
+	color: #999999;
+	font-size: 24px;
+}
+span {
+	font-weight: bold;
+}
+
+.link {
+	display: inline-block;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+	position: absolute;
+	bottom: 50px;
+	left: 400px;
+
+}
+a {
+	text-decoration: none;
+	color: #e7242a;
+}

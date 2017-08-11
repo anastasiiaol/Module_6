@@ -1,0 +1,23 @@
+.par1 {
+	background-color: green;
+}
+.par1:hover {
+	background-color: yellow;
+}
+.par1:active {
+	background-color: red;
+}
+.par2 {
+	background-color: violet;
+}
+.par2:hover {
+	background-color: brown;
+}
+.par2:active {
+	background-color: gold;
+}
+
+
+
+
+
